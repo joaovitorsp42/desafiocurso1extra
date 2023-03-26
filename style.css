@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+}
+#page{
+  text-align: center;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 64px;
+}
+main img{
+  margin-bottom: 32px;
+}
+h1{
+  font-family: 'Dosis', sans-serif;
+  font-weight: medium;
+  color: #3F3D56;
+}
+h1 span{
+  font-weight: bold;
+  color:#EE24FF;
+}
+p{
+  color: #828282;
+}
+p strong{
+  color: #3F3D56;
+}
+p span{
+  color: #828282
+}
+footer{
+  display: flex;
+  flex-direction: column;
+
+}
+#line{
+  border: 1px solid #ECEFF2;
+  width: 391px;
+  height: 0;
+  margin: 64px auto 16px; 
+}
+#sublinks{
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+  margin-bottom: 40px; 
+}
+#sublinks :hover{
+  color:#3F3D56;
+  font-weight: bold;
+}
